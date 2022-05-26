@@ -19,11 +19,12 @@ This can be used in your website, webapp or other projects you're working on.
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Color 1|  #080c25 |
-| Color 2|  #161e35 |
-| Color 3|  #3071e7 |
-| Color 4|  #ffffff |
-| Color 5|  #a6b2ec |
+| Color 1|  #333741 | #333741
+| Color 2|  #525864 | #525864;
+| Color 3|  #3071e7 | #6c757d
+| Color 4|  #ffffff | #f8f9fa
+| Color 5|  #a6b2ec | #295297
+| Color 6|          | #1f487e
 
 ## FAQ
 
