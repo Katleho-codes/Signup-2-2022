@@ -24,7 +24,7 @@ This can be used in your website, webapp or other projects you're working on.
 | Color 3|  #3071e7 | #6c757d
 | Color 4|  #ffffff | #f8f9fa
 | Color 5|  #a6b2ec | #295297
-| Color 6|          | #1f487e
+| Color 6|  #1f487e  | #1f487e
 
 ## FAQ
 
