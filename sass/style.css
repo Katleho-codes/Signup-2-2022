@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  margin: 0.6rem auto;
+  padding: 1rem;
+}
+
+header .logo img {
+  height: 2.3rem;
+}
+
+.columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  min-width: 100%;
+  max-width: 1200px;
+  width: 100%;
+  border: 2px solid #1f487e;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.columns .column {
+  padding: 0 20px;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1rem;
+}
+
+.columns .column-1 {
+  display: none;
+}
+
+.columns .column-2 h2 {
+  color: #1f487e;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.columns .column-2 .wrapper form label {
+  font-weight: 500;
+  color: #333741;
+}
+
+.columns .column-2 .wrapper form input[type="text"],
+.columns .column-2 .wrapper form input[type="email"],
+.columns .column-2 .wrapper form input[type="password"] {
+  width: 100%;
+  border-radius: 4px;
+  border: 2px solid #6c757d;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.columns .column-2 .wrapper form input[type="text"]:focus,
+.columns .column-2 .wrapper form input[type="email"]:focus,
+.columns .column-2 .wrapper form input[type="password"]:focus {
+  border: none;
+  outline: 0;
+  border-radius: 4px;
+  border-bottom: 2px solid #6c757d;
+}
+
+.columns .column-2 .wrapper form .btn-options {
+  text-align: center;
+}
+
+.columns .column-2 .wrapper form .btn-options input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  background-color: #295297;
+  border: 3px solid #295297;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.columns .column-2 .wrapper form .btn-options input[type="submit"]:focus,
+.columns .column-2 .wrapper form .btn-options input[type="submit"]:hover {
+  background-color: #1f487e;
+  border: 3px solid #1f487e;
+}
+
+.columns .column-2 .wrapper form .btn-options p a {
+  text-decoration: none;
+  color: #295297;
+  font-weight: 400;
+}
+
+.columns .column-2 .wrapper form .btn-options p a:hover,
+.columns .column-2 .wrapper form .btn-options p a:focus {
+  color: #1f487e;
+}
+
+@media (min-width: 700px) {
+  .columns {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .columns .column {
+    width: 50%;
+    height: 700px;
+  }
+  .columns .column .wrapper {
+    position: relative;
+    top: 30px;
+    bottom: 0;
+    width: 40%;
+    margin: auto;
+  }
+  .columns .column-1 {
+    background-image: url("../img/servers_room-wallpaper-3840x2160.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */
